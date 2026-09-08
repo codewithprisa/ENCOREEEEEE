@@ -1,0 +1,101 @@
+/* ========================================
+   TIKETKONSER — THEME
+   ======================================== */
+
+:root {
+  /* Background */
+  --background: #0C0C0D;
+  --card: #141414;
+  --border: #201F1B;
+
+  /* Accent */
+  --primary: #C9A86A;
+
+  /* Text */
+  --text-primary: #F1EEE6;
+  --text-secondary: #7A7870;
+
+  /* Status */
+  --status-published: #C9A86A;
+  --status-published-bg: #221C10;
+
+  --status-broken: #B06A5F;
+  --status-broken-bg: #241514;
+}
+
+
+/* =========================================
+   LIGHT MODE — Encore
+   ========================================= */
+
+.light {
+  --background: #FAF8F4;
+  --card: #FCFAF7;
+  --border: #E8DDD0;
+
+  --primary: #21618C;
+  --primary-soft: #F4DFB5;
+
+  --text-primary: #24231F;
+  --text-secondary: #716D65;
+
+  --input: #FBF0DD;
+
+  --published: #A9854D;
+  --published-bg: #F3EBDD;
+
+  --broken: #A65F55;
+  --broken-bg: #F3E3E0;
+}
+
+
+/* =========================================
+   DARK MODE — Encore
+   ========================================= */
+
+.dark {
+  --background: #0C0C0D;
+  --card: #141414;
+  --border: #201F1B;
+
+  --primary: #C9A86A;
+  --primary-soft: #221C10;
+
+  --text-primary: #F1EEE6;
+  --text-secondary: #7A7870;
+
+  --input: #141414;
+
+  --published: #C9A86A;
+  --published-bg: #221C10;
+
+  --broken: #B06A5F;
+  --broken-bg: #241514;
+}
+
+
+/* ========================================
+   GLOBAL
+   ======================================== */
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+
+/* ========================================
+   OPTIONAL TRANSITION
+   ======================================== */
+
+body,
+div,
+button,
+input,
+textarea,
+select {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
