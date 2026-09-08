@@ -1,0 +1,2 @@
+export const JWT_SECRET = "d49acc19346fdd805a406ce55a316653c2bd8c5e167494568c2f1c53b9250243";
+export const JWT_EXPIRES = "1d";
